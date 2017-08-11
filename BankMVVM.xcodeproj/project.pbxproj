@@ -13,6 +13,10 @@
 		B79854091F3D8F60004E4534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79854081F3D8F60004E4534 /* Assets.xcassets */; };
 		B798540C1F3D8F60004E4534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B798540A1F3D8F60004E4534 /* LaunchScreen.storyboard */; };
 		B79854171F3D8F61004E4534 /* BankMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854161F3D8F61004E4534 /* BankMVVMTests.swift */; };
+		B79854231F3D9029004E4534 /* AccountOwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854221F3D9029004E4534 /* AccountOwnerTests.swift */; };
+		B79854251F3D9195004E4534 /* AccountOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854241F3D9195004E4534 /* AccountOwner.swift */; };
+		B79854271F3E3D49004E4534 /* FirstNameValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854261F3E3D49004E4534 /* FirstNameValidatorTests.swift */; };
+		B79854291F3E40E3004E4534 /* FirstNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854281F3E40E3004E4534 /* FirstNameValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		B79854121F3D8F61004E4534 /* BankMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79854161F3D8F61004E4534 /* BankMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankMVVMTests.swift; sourceTree = "<group>"; };
 		B79854181F3D8F61004E4534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79854221F3D9029004E4534 /* AccountOwnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOwnerTests.swift; sourceTree = "<group>"; };
+		B79854241F3D9195004E4534 /* AccountOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountOwner.swift; sourceTree = "<group>"; };
+		B79854261F3E3D49004E4534 /* FirstNameValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameValidatorTests.swift; sourceTree = "<group>"; };
+		B79854281F3E40E3004E4534 /* FirstNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +85,10 @@
 		B79854001F3D8F60004E4534 /* BankMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				B79854211F3D8F8C004E4534 /* Model */,
 				B79854011F3D8F60004E4534 /* AppDelegate.swift */,
 				B79854031F3D8F60004E4534 /* ViewController.swift */,
+				B79854281F3E40E3004E4534 /* FirstNameValidator.swift */,
 				B79854051F3D8F60004E4534 /* Main.storyboard */,
 				B79854081F3D8F60004E4534 /* Assets.xcassets */,
 				B798540A1F3D8F60004E4534 /* LaunchScreen.storyboard */,
@@ -92,8 +102,18 @@
 			children = (
 				B79854161F3D8F61004E4534 /* BankMVVMTests.swift */,
 				B79854181F3D8F61004E4534 /* Info.plist */,
+				B79854221F3D9029004E4534 /* AccountOwnerTests.swift */,
+				B79854261F3E3D49004E4534 /* FirstNameValidatorTests.swift */,
 			);
 			path = BankMVVMTests;
+			sourceTree = "<group>";
+		};
+		B79854211F3D8F8C004E4534 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B79854241F3D9195004E4534 /* AccountOwner.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79854251F3D9195004E4534 /* AccountOwner.swift in Sources */,
 				B79854041F3D8F60004E4534 /* ViewController.swift in Sources */,
+				B79854291F3E40E3004E4534 /* FirstNameValidator.swift in Sources */,
 				B79854021F3D8F60004E4534 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B79854171F3D8F61004E4534 /* BankMVVMTests.swift in Sources */,
+				B79854271F3E3D49004E4534 /* FirstNameValidatorTests.swift in Sources */,
+				B79854231F3D9029004E4534 /* AccountOwnerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
