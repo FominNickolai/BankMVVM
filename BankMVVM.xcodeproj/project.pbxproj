@@ -18,6 +18,8 @@
 		B79854291F3E40E3004E4534 /* FirstNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854281F3E40E3004E4534 /* FirstNameValidator.swift */; };
 		B798542C1F3F1A26004E4534 /* LastNameValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798542B1F3F1A26004E4534 /* LastNameValidatorTests.swift */; };
 		B798542E1F3F1E57004E4534 /* LastNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798542D1F3F1E57004E4534 /* LastNameValidator.swift */; };
+		B79854301F3F7DCD004E4534 /* EmailAddressValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798542F1F3F7DCD004E4534 /* EmailAddressValidatorTests.swift */; };
+		B79854321F3F7F54004E4534 /* EmailAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854311F3F7F54004E4534 /* EmailAddressValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		B79854281F3E40E3004E4534 /* FirstNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNameValidator.swift; sourceTree = "<group>"; };
 		B798542B1F3F1A26004E4534 /* LastNameValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameValidatorTests.swift; sourceTree = "<group>"; };
 		B798542D1F3F1E57004E4534 /* LastNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastNameValidator.swift; sourceTree = "<group>"; };
+		B798542F1F3F7DCD004E4534 /* EmailAddressValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAddressValidatorTests.swift; sourceTree = "<group>"; };
+		B79854311F3F7F54004E4534 /* EmailAddressValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAddressValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				B79854221F3D9029004E4534 /* AccountOwnerTests.swift */,
 				B79854261F3E3D49004E4534 /* FirstNameValidatorTests.swift */,
 				B798542B1F3F1A26004E4534 /* LastNameValidatorTests.swift */,
+				B798542F1F3F7DCD004E4534 /* EmailAddressValidatorTests.swift */,
 			);
 			path = BankMVVMTests;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			children = (
 				B79854281F3E40E3004E4534 /* FirstNameValidator.swift */,
 				B798542D1F3F1E57004E4534 /* LastNameValidator.swift */,
+				B79854311F3F7F54004E4534 /* EmailAddressValidator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79854321F3F7F54004E4534 /* EmailAddressValidator.swift in Sources */,
 				B79854251F3D9195004E4534 /* AccountOwner.swift in Sources */,
 				B79854041F3D8F60004E4534 /* ViewController.swift in Sources */,
 				B798542E1F3F1E57004E4534 /* LastNameValidator.swift in Sources */,
@@ -240,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79854301F3F7DCD004E4534 /* EmailAddressValidatorTests.swift in Sources */,
 				B798542C1F3F1A26004E4534 /* LastNameValidatorTests.swift in Sources */,
 				B79854271F3E3D49004E4534 /* FirstNameValidatorTests.swift in Sources */,
 				B79854231F3D9029004E4534 /* AccountOwnerTests.swift in Sources */,
