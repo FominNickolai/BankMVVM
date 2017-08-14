@@ -17,7 +17,7 @@ class AccountOwnerTests: XCTestCase {
     
     private let invalidFirstName = "A"
     private let invalidLastName = "h"
-    private let invalidEmailAddress = "qwerty@gmail.com"
+    private let invalidEmailAddress = "23dui23@gmail.com"
     
     private let emptyString = ""
     

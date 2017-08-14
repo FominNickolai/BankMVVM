@@ -24,6 +24,21 @@
 		B79854371F417521004E4534 /* MockLastNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854361F417521004E4534 /* MockLastNameValidator.swift */; };
 		B79854391F41757E004E4534 /* MockEmailAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854381F41757E004E4534 /* MockEmailAddressValidator.swift */; };
 		B798543B1F4191E5004E4534 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798543A1F4191E5004E4534 /* Transaction.swift */; };
+		B798543D1F4193F3004E4534 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798543C1F4193F3004E4534 /* BankAccount.swift */; };
+		B798543F1F41959A004E4534 /* BankAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798543E1F41959A004E4534 /* BankAccountTests.swift */; };
+		B79854411F419663004E4534 /* AccountNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854401F419663004E4534 /* AccountNameValidator.swift */; };
+		B79854431F41968A004E4534 /* AccountNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854421F41968A004E4534 /* AccountNumberValidator.swift */; };
+		B79854451F419729004E4534 /* AmountValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854441F419729004E4534 /* AmountValidator.swift */; };
+		B79854471F419DE6004E4534 /* SortingCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854461F419DE6004E4534 /* SortingCodeValidator.swift */; };
+		B79854491F419FC4004E4534 /* TransactionDescriptionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854481F419FC4004E4534 /* TransactionDescriptionValidator.swift */; };
+		B798544B1F41A01E004E4534 /* MockAccountNameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798544A1F41A01E004E4534 /* MockAccountNameValidator.swift */; };
+		B798544D1F41A04F004E4534 /* MockAccountNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798544C1F41A04F004E4534 /* MockAccountNumberValidator.swift */; };
+		B798544F1F41A117004E4534 /* MockAmountValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B798544E1F41A117004E4534 /* MockAmountValidator.swift */; };
+		B79854511F41A147004E4534 /* MockSortingCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854501F41A147004E4534 /* MockSortingCodeValidator.swift */; };
+		B79854531F41A173004E4534 /* MockTransactionDescriptionValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854521F41A173004E4534 /* MockTransactionDescriptionValidator.swift */; };
+		B79854551F41A237004E4534 /* SortingCodeValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854541F41A237004E4534 /* SortingCodeValidatorTests.swift */; };
+		B79854571F41A28D004E4534 /* TransactionDescriptionValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854561F41A28D004E4534 /* TransactionDescriptionValidatorTests.swift */; };
+		B79854591F41A2C1004E4534 /* TransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79854581F41A2C1004E4534 /* TransactionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +73,21 @@
 		B79854361F417521004E4534 /* MockLastNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLastNameValidator.swift; sourceTree = "<group>"; };
 		B79854381F41757E004E4534 /* MockEmailAddressValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEmailAddressValidator.swift; sourceTree = "<group>"; };
 		B798543A1F4191E5004E4534 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		B798543C1F4193F3004E4534 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		B798543E1F41959A004E4534 /* BankAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountTests.swift; sourceTree = "<group>"; };
+		B79854401F419663004E4534 /* AccountNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNameValidator.swift; sourceTree = "<group>"; };
+		B79854421F41968A004E4534 /* AccountNumberValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNumberValidator.swift; sourceTree = "<group>"; };
+		B79854441F419729004E4534 /* AmountValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountValidator.swift; sourceTree = "<group>"; };
+		B79854461F419DE6004E4534 /* SortingCodeValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingCodeValidator.swift; sourceTree = "<group>"; };
+		B79854481F419FC4004E4534 /* TransactionDescriptionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDescriptionValidator.swift; sourceTree = "<group>"; };
+		B798544A1F41A01E004E4534 /* MockAccountNameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAccountNameValidator.swift; sourceTree = "<group>"; };
+		B798544C1F41A04F004E4534 /* MockAccountNumberValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAccountNumberValidator.swift; sourceTree = "<group>"; };
+		B798544E1F41A117004E4534 /* MockAmountValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAmountValidator.swift; sourceTree = "<group>"; };
+		B79854501F41A147004E4534 /* MockSortingCodeValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSortingCodeValidator.swift; sourceTree = "<group>"; };
+		B79854521F41A173004E4534 /* MockTransactionDescriptionValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTransactionDescriptionValidator.swift; sourceTree = "<group>"; };
+		B79854541F41A237004E4534 /* SortingCodeValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingCodeValidatorTests.swift; sourceTree = "<group>"; };
+		B79854561F41A28D004E4534 /* TransactionDescriptionValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDescriptionValidatorTests.swift; sourceTree = "<group>"; };
+		B79854581F41A2C1004E4534 /* TransactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +150,10 @@
 				B79854261F3E3D49004E4534 /* FirstNameValidatorTests.swift */,
 				B798542B1F3F1A26004E4534 /* LastNameValidatorTests.swift */,
 				B798542F1F3F7DCD004E4534 /* EmailAddressValidatorTests.swift */,
+				B798543E1F41959A004E4534 /* BankAccountTests.swift */,
+				B79854541F41A237004E4534 /* SortingCodeValidatorTests.swift */,
+				B79854561F41A28D004E4534 /* TransactionDescriptionValidatorTests.swift */,
+				B79854581F41A2C1004E4534 /* TransactionTests.swift */,
 			);
 			path = BankMVVMTests;
 			sourceTree = "<group>";
@@ -129,6 +163,7 @@
 			children = (
 				B79854241F3D9195004E4534 /* AccountOwner.swift */,
 				B798543A1F4191E5004E4534 /* Transaction.swift */,
+				B798543C1F4193F3004E4534 /* BankAccount.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +174,11 @@
 				B79854281F3E40E3004E4534 /* FirstNameValidator.swift */,
 				B798542D1F3F1E57004E4534 /* LastNameValidator.swift */,
 				B79854311F3F7F54004E4534 /* EmailAddressValidator.swift */,
+				B79854401F419663004E4534 /* AccountNameValidator.swift */,
+				B79854421F41968A004E4534 /* AccountNumberValidator.swift */,
+				B79854441F419729004E4534 /* AmountValidator.swift */,
+				B79854461F419DE6004E4534 /* SortingCodeValidator.swift */,
+				B79854481F419FC4004E4534 /* TransactionDescriptionValidator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -149,6 +189,11 @@
 				B79854341F3F91A3004E4534 /* MockFirstNameValidator.swift */,
 				B79854361F417521004E4534 /* MockLastNameValidator.swift */,
 				B79854381F41757E004E4534 /* MockEmailAddressValidator.swift */,
+				B798544A1F41A01E004E4534 /* MockAccountNameValidator.swift */,
+				B798544C1F41A04F004E4534 /* MockAccountNumberValidator.swift */,
+				B798544E1F41A117004E4534 /* MockAmountValidator.swift */,
+				B79854501F41A147004E4534 /* MockSortingCodeValidator.swift */,
+				B79854521F41A173004E4534 /* MockTransactionDescriptionValidator.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -255,10 +300,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B798543B1F4191E5004E4534 /* Transaction.swift in Sources */,
+				B79854451F419729004E4534 /* AmountValidator.swift in Sources */,
+				B79854431F41968A004E4534 /* AccountNumberValidator.swift in Sources */,
 				B79854321F3F7F54004E4534 /* EmailAddressValidator.swift in Sources */,
+				B79854491F419FC4004E4534 /* TransactionDescriptionValidator.swift in Sources */,
+				B79854471F419DE6004E4534 /* SortingCodeValidator.swift in Sources */,
 				B79854251F3D9195004E4534 /* AccountOwner.swift in Sources */,
 				B79854041F3D8F60004E4534 /* ViewController.swift in Sources */,
 				B798542E1F3F1E57004E4534 /* LastNameValidator.swift in Sources */,
+				B798543D1F4193F3004E4534 /* BankAccount.swift in Sources */,
+				B79854411F419663004E4534 /* AccountNameValidator.swift in Sources */,
 				B79854291F3E40E3004E4534 /* FirstNameValidator.swift in Sources */,
 				B79854021F3D8F60004E4534 /* AppDelegate.swift in Sources */,
 			);
@@ -270,11 +321,20 @@
 			files = (
 				B79854301F3F7DCD004E4534 /* EmailAddressValidatorTests.swift in Sources */,
 				B798542C1F3F1A26004E4534 /* LastNameValidatorTests.swift in Sources */,
+				B79854551F41A237004E4534 /* SortingCodeValidatorTests.swift in Sources */,
 				B79854271F3E3D49004E4534 /* FirstNameValidatorTests.swift in Sources */,
+				B79854531F41A173004E4534 /* MockTransactionDescriptionValidator.swift in Sources */,
+				B79854571F41A28D004E4534 /* TransactionDescriptionValidatorTests.swift in Sources */,
 				B79854231F3D9029004E4534 /* AccountOwnerTests.swift in Sources */,
 				B79854351F3F91A3004E4534 /* MockFirstNameValidator.swift in Sources */,
+				B798544B1F41A01E004E4534 /* MockAccountNameValidator.swift in Sources */,
+				B798543F1F41959A004E4534 /* BankAccountTests.swift in Sources */,
+				B79854591F41A2C1004E4534 /* TransactionTests.swift in Sources */,
 				B79854371F417521004E4534 /* MockLastNameValidator.swift in Sources */,
+				B798544D1F41A04F004E4534 /* MockAccountNumberValidator.swift in Sources */,
 				B79854391F41757E004E4534 /* MockEmailAddressValidator.swift in Sources */,
+				B79854511F41A147004E4534 /* MockSortingCodeValidator.swift in Sources */,
+				B798544F1F41A117004E4534 /* MockAmountValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

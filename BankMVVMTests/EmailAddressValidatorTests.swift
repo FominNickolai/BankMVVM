@@ -15,7 +15,7 @@ class EmailAddressValidatorTests: XCTestCase {
     fileprivate let validEmailAddress1 = "a@b.com"
     fileprivate let validEmailAddress2 = "a@b.co.uk"
     fileprivate let validEmailAddress3 = "a@b.io"
-    fileprivate let validEmailAddress4 = "andrew.shaw@byteowl.io"
+    fileprivate let validEmailAddress4 = "andrew23.shaw@byteowl.io"
     fileprivate let invalidEmailAddress1 = "ab.com"
     fileprivate let invalidEmailAddress2 = "abcom"
     fileprivate let invalidEmailAddress3 = "a@b@com"
