@@ -13,7 +13,7 @@ class AccountOwnerTests: XCTestCase {
     
     private let validFirstName = "Andrew"
     private let validLastName = "Hill"
-    private let validEmailAddress = "giraffe.in.ua@gmail.com"
+    private let validEmailAddress = "kolyan@gmail.com"
     
     private let invalidFirstName = "A"
     private let invalidLastName = "h"
@@ -81,13 +81,50 @@ class AccountOwnerTests: XCTestCase {
         XCTAssertNil(accountOwner)
     }
     
+    func testAccountOwner_ValidFirstNAme_ValidLastName_ValidEmailAddress_ValidFirstNameValidator_CallsValidateOnValidator() {
+        let expection = self.expectation(description: "Expected validate to be called on validator.")
+        
+        let mockFirstNameValidator = MockFirstNameValidator(expection, expectedValue: validFirstName)
+        
+        let _ = AccountOwner(firstName: validFirstName, lastName: validLastName, emailAddress: validEmailAddress, firstNameValidator: mockFirstNameValidator)
+        
+        self.waitForExpectations(timeout: 1.0, handler: nil)
+    }
     
+    func testAccountWoner_ValidFirstName_ValidLastName_ValidEmailAddress_ValidEmailAddressValidator_CallsValidateOnValidator() {
+        
+        let expectation = self.expectation(description: "Expected validate to be called on validator.")
+        let mockEmailAddressValidator = MockEmailAddressValidator(expectation, expectedValue: validEmailAddress)
+        
+        let _ = AccountOwner(firstName: validFirstName, lastName: validLastName, emailAddress: validEmailAddress, firstNameValidator: nil, lastNameValidator: nil, emailAddressValidator: mockEmailAddressValidator)
+        
+        self.waitForExpectations(timeout: 1.0, handler: nil)
+        
+    }
     
+    func testAccountOwner_ValidFirstName_ValidLastName_ValidEmailAddress_CopiesFirstNameToIVAR() {
+        
+        let accountOwner = AccountOwner(firstName: validFirstName, lastName: validLastName, emailAddress: validEmailAddress)
+        let isEqual = accountOwner!.firstName.compare(validFirstName) == .orderedSame
+        XCTAssertTrue(isEqual)
+        
+    }
     
+    func testAccountOwner_ValidFirstName_ValidLastNAme_ValidEmailAddress_CopiesLastNameToIVAR() {
+        
+        let accountOwner = AccountOwner(firstName: validFirstName, lastName: validLastName, emailAddress: validEmailAddress)
+        let isEqual = accountOwner!.lastName.compare(validLastName) == .orderedSame
+        XCTAssertTrue(isEqual)
+        
+    }
     
-    
-    
-    
+    func testAccountOwner_ValidFirstName_ValidLastName_CopiesEmailAddressToIVAR() {
+        
+        let accountOwner = AccountOwner(firstName: validFirstName, lastName: validLastName, emailAddress: validEmailAddress)
+        let isEqual = accountOwner!.emailAddress.compare(validEmailAddress) == .orderedSame
+        XCTAssertTrue(isEqual)
+        
+    }
     
     
     

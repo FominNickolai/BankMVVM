@@ -21,7 +21,7 @@ class EmailAddressValidator: NSObject {
             return false
         }
         
-        let numbers = Set(" ".characters)
+        let numbers = Set("0123456789".characters)
         let isContainingNumbers = value.characters.filter({ numbers.contains($0) })
         if isContainingNumbers.count > 0 {
             return false
@@ -33,7 +33,7 @@ class EmailAddressValidator: NSObject {
             return false
         }
         
-        guard let regexValidator = try? NSRegularExpression(pattern: "([A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}]))", options: .caseInsensitive) else { return false }
+        guard let regexValidator = try? NSRegularExpression(pattern: "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}", options: .caseInsensitive) else { return false }
         
         if regexValidator.numberOfMatches(in: value, options: NSRegularExpression.MatchingOptions.reportCompletion, range: NSMakeRange(0, value.characters.count)) > 0 {
             return true
